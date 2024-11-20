@@ -1,0 +1,190 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+
+
+/* Define uma fonte básica para todo o corpo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Estiliza o cabeçalho */
+header.titulo {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+/* Estiliza o input de nome */
+#Caixa-de-Nome {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#Caixa-de-Nome label {
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+#Caixa-de-Nome input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+#paragrafo{
+margin-top: 50px;
+width: 100%;
+display: flex;
+justify-content: center;
+
+}
+p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+/* Estiliza o contêiner principal */
+#principal {
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 50px;
+}
+
+.button-principal {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    margin: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button-principal:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.button-principal:hover:not(:disabled) {
+    background-color: #45a049;
+}
+
+/* Estiliza as divs de botões */
+#estados {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#estados div {
+    margin: 1rem;
+}
+
+#estados button {
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    margin: 0.25rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#estados button:hover {
+    background-color: #007B9A;
+}
+
+/* Esconde as divs inicialmente */
+.hidden {
+    display: none;
+}
+
+/* Estiliza a div de resultado */
+#resultado {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+}
+
+.Bandeiras {
+    padding-top: 50px;
+    width: 500px;
+    height: 250px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    
+}
+
+img{
+border: solid rgb(0, 0, 0) 2px;
+}
+
+#final{
+    width:100%;
+    justify-content: center;
+    display: flex;
+    margin-top: 4%;
+
+    
+
+}
+#Button_final{
+    background-color: #8fa708;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+   
+
+}
+
+#Button_final:hover{
+background-color: rgb(94, 94, 21);
+
+}
+
+#rodape{
+background-color: #4CAF50;
+margin-top: 200px;
+align-items: center;
+display: flex;
+justify-content: center;
+width:100% ;
+height: 150px;
+gap: 10px;
+flex-wrap: wrap;
+}
+
+.bandeirape {
+width: 70px;
+height: 70px;
+border: solid black;
+
+}

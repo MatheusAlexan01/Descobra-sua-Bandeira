@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botões Norte e Sul</title>
+    <link rel="stylesheet" href="./styls.css">
+
+</head>
+<body>
+    <header class="titulo">
+        <h1>Descubra sua Bandeira</h1>
+    </header>
+
+    <nav>
+        <div id="Caixa-de-Nome">
+            <label>Qual o seu Nome?</label><br>
+            <input type="text"  id="nome" placeholder=" Digite Aqui..">
+        </div>
+    </nav>
+
+ <div id="paragrafo">
+    <p>Qual é a sua região?</p>
+ </div>
+
+    <div id="principal" >
+    <button class="button-principal" id="norte" disabled>Norte</button>
+    <button  class="button-principal" id="sul" disabled>Sul</button>
+    <button  class="button-principal" id="Centro" disabled>Centro-Oeste</button>
+    <button  class="button-principal" id="Suldeste" disabled>Suldeste</button>
+    <button  class="button-principal" id="Nordeste" disabled>Nordeste</button>
+    </div>
+    
+    <div>
+        
+    <p id="paragrafo" >Qual é o seu estado?</p>
+    </div>
+
+    
+    <section id="estados"> 
+
+        
+
+    
+        <div id="norte-buttons" class="hidden">
+        <button id="amazonas">Amazonas</button>
+        <button id="para">Pará</button>
+        <button id="acre">Acre</button>
+        <button id="roraima">Roraima</button>
+        <button id="amapa">Amapá</button>
+        <button  id="rodonia">Rodônia</button>
+        <button id="toca">Tocantins</button>
+        </div>
+    
+        <div id="sul-buttons" class="hidden">
+        <button id="grandeSul">Rio Grande do Sul</button>
+        <button id="santa">Santa Catarina</button>
+        <button id="parana">Paraná</button>
+        </div>
+
+        <div id="Centro-buttons" class="hidden">
+            <button id="mato">Mato Grosso</button>
+            <button id="matosul">Mato Grosso Do Sul</button>
+            <button id="goias">Goáis</button>
+            <button id="federal">Distrito Federal</button>
+        </div>
+
+        
+        <div id="Suldeste-buttons" class="hidden">
+            <button  id="paulo">São Paulo</button>
+            <button id="santo">Espírito Santo</button>
+            <button id="rio">Rio de Janeiro</button>
+            <button id="minas">Minas Gerais</button>
+        </div>
+
+        <div id="Nordeste-buttons" class="hidden">
+            <button id="rioN">Rio Grande do Norte</button>
+            <button id="sergipe">Sergipe</button>
+            <button id="alagoas">Alagoas</button>
+            <button id="parai">Paraiba</button>
+            <button id="perna">Pernabunco</button>
+            <button id="bahia">Bahia</button>
+            <button id="maranha">Maranhão</button>
+            <button id="cea">Ceára</button>
+            <button id="pia">Piaui</button>
+        </div>
+
+    </section>
+    
+
+
+    <div id="resultado" class="hidden"></div>
+
+   
+       <figure class="Bandeiras">
+        <img id="amazonas-img"  class="hidden " src="./imagens/AM.png" alt="">
+        <img id="para-img"  class="hidden" src="./imagens/PA.png" alt="">
+        <img id="acre-img"  class="hidden" src="./imagens/AC.png" alt="">
+        <img id="roraima-img"  class="hidden" src="./imagens/RR.png" alt="">
+        <img id="amapa-img"  class="hidden" src="./imagens/AM.png" alt="">
+        <img id="rodonia-img"  class="hidden" src="./imagens/RO.png" alt="">
+        <img id="grandeSul-img"  class="hidden" src="./imagens/RS.png" alt="">
+        <img id="santa-img"  class="hidden" src="./imagens/SC.png" alt="">
+        <img id="parana-img"  class="hidden" src="./imagens/PR.png" alt="">
+        <img id="mato-img"  class="hidden" src="./imagens/MT.png" alt="">
+        <img id="matosul-img"  class="hidden" src="./imagens/MS.png" alt="">
+        <img id="goias-img"  class="hidden" src="./imagens/GO.png" alt="">
+        <img id="federal-img"  class="hidden" src="./imagens/DF.png" alt="">
+        <img id="paulo-img"  class="hidden" src="./imagens/SP.png" alt="">
+        <img id="santo-img"  class="hidden" src="./imagens/ES.png" alt="">
+        <img id="rio-img"  class="hidden" src="./imagens/RJ.png" alt="">
+        <img id="minas-img"  class="hidden" src="./imagens/MG.png" alt="">
+        <img id="rioN-img"  class="hidden" src="./imagens/RN.png" alt="">
+        <img id="sergipe-img"  class="hidden" src="./imagens/SE.png" alt="">
+        <img id="alagoas-img"  class="hidden" src="./imagens/AL.png" alt="">
+        <img id="parai-img"  class="hidden" src="./imagens/PB.png" alt="">
+        <img id="perna-img"  class="hidden" src="./imagens/PE.png" alt="">
+        <img id="bahia-img"  class="hidden" src="./imagens/BA.png" alt="">
+        <img id="maranha-img"  class="hidden" src="./imagens/MA.png" alt="">
+        <img id="toca-img"  class="hidden" src="./imagens/TO.png" alt="">
+        <img id="pia-img" class="hidden" src="./imagens/PI.png" alt="">
+        <img id="cea-img" class="hidden" src="./imagens/CE.png" alt="">
+        
+        </figure>
+       
+    
+       
+    
+    
+ 
+    <div id="final">
+    <button id="Button_final" >Resert</button>
+    </div>
+    
+    <footer id="rodape">
+      
+            <img class="bandeirape" src="/imagens/AC.png" alt="">
+            <img class="bandeirape" src="/imagens/RN.png" alt="">
+            <img class="bandeirape" src="/imagens/RJ.png" alt="">
+            <img class="bandeirape" src="/imagens/RR.png" alt="">
+            <img class="bandeirape" src="/imagens/AM.png" alt="">
+            <img class="bandeirape" src="/imagens/SC.png" alt="">
+            <img class="bandeirape" src="/imagens/CE.png" alt="">
+            <img class="bandeirape" src="/imagens/RO.png" alt="">
+            <img class="bandeirape" src="/imagens/RS.png" alt="">
+            <img class="bandeirape" src="/imagens/TO.png" alt="">
+            <img class="bandeirape" src="/imagens/PA.png" alt="">
+            <img class="bandeirape" src="/imagens/PB.png" alt="">
+            <img class="bandeirape" src="/imagens/BA.png" alt="">
+            <img class="bandeirape" src="/imagens/MA.png" alt="">
+            <img class="bandeirape" src="/imagens/MG.png" alt="">
+            <img class="bandeirape" src="/imagens/MS.png" alt="">
+            <img class="bandeirape" src="/imagens/MT.png" alt="">
+            <img class="bandeirape" src="/imagens/DF.png" alt="">
+            <img class="bandeirape" src="/imagens/PI.png" alt="">
+            <img class="bandeirape" src="/imagens/ES.png" alt="">
+            <img class="bandeirape" src="/imagens/PE.png" alt="">
+            <img class="bandeirape" src="/imagens/PR.png" alt="">
+            <img class="bandeirape" src="/imagens/RR.png" alt="">
+            <img class="bandeirape" src="/imagens/GO.png" alt="">
+            <img class="bandeirape" src="/imagens/AL.png" alt="">
+            <img class="bandeirape" src="/imagens/SP.png" alt="">
+
+    </footer>
+    <script defer src="bandeira.js"></script>
+</body>
+</html>
